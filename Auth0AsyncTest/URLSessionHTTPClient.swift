@@ -48,4 +48,5 @@ class URLSessionHTTPClient: HTTPClient {
 enum NetworkError: Error {
     case non200
     case nonHTTPURLResponse
+    case failedAuthRetry
 }
